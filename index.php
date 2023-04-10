@@ -39,27 +39,40 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/style.css">
+      <!-- G Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
-    <h1>Acesse sua conta</h1>
-    <form action="" method="POST">
-        <p>
-            <label>E-mail</label>
-            <input type="text" name="email">
-        </p>
-        <p>
-            <label>Senha</label>
-            <input type="password" name="senha">
-        </p>
-        <p>
-            <button type="submit">Entrar</button>
-        </p>
-    </form>
+  <div class="img">
+    <div class="login-box">
+      <p class="logo"><span>Sql</span>-Injection</p>
+      <form>
+        <div class="user-box">
+          <input type="text" name="" required="">
+          <label>Login</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="" required="">
+          <label>Senha</label>
+        </div>
+        <a href="logado.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </a>
+      </form>
+    </div>
+  </div>
 </body>
 </html>
